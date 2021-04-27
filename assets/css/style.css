@@ -1,0 +1,64 @@
+:root {
+  --primary: #07bc9c;
+  --dark-primary: #01866e;
+}
+.navbar-brand {
+  font-size: 1.25rem;
+}
+
+.navbar-toggler {
+  background-color: var(--primary);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: var(--primary);
+}
+
+.btn {
+  background-color: var(--primary);
+  background-image: linear-gradient(to right, #01866e, var(--primary), #01866e);
+  transition: background-position 0.5s ease-out;
+  background-size: 200%;
+  color: white;
+}
+
+.btn:hover {
+    background-position: 100% 0;
+    color: white;
+}
+
+.btn:focus {
+    box-shadow: 0 0 0 0.2rem rgb(7 188 156 / 25%);
+}
+
+.bg-prime {
+    background-color: var(--primary);
+    color: white;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+}
+
+.img-thumbnail {
+    padding: 0;
+    border-width: 0;
+}
+
+blockquote {
+    border-left: 3px solid wheat;
+    color: wheat;
+}
+
+/* small >576 */
+@media (min-width: 576px) {
+}
+/* Medium >768 */
+@media (min-width: 768px) {
+}
+/* large >992 */
+@media (min-width: 992px) {
+  .navbar-brand {
+    font-size: 2rem;
+  }
+}
